@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>KISSA official website</title>
+    <meta name="description" content="This is the official website of KISSA, a café that offers carefully crafted, freshly roasted coffee and a cozy atmosphere that makes you want to linger.">
+    <meta name="viewport" content="width=device-width">
+    <script src="./js/main.js" defer></script>   
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/access.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--header from here-->
+    <div id="header-placeholder"></div>
+    <!--header until here-->
+
+    <!--main from here-->
+    <main class="main">
+      <div class="title">
+        <h1>ACCESS</h1>
+      </div>
+      <div class="map">
+        <h2>Access Map</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27817897.506632295!2d115.67810182056508!3d31.668347583270823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34674e0fd77f192f%3A0xf54275d47c665244!2z5pel5pys!5e0!3m2!1sja!2sjp!4v1730292117149!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="contact">
+        <h2>Contact Form</h2>
+        <form action="#">
+          <dl class="form-area">
+            <dt><span class="required">Name</span></dt>
+            <dd><input class="input-text" type="text" name="name" required></dd>
+            <dt><span class="required">Mail</span></dt>
+            <dd><input class="input-text" type="email" name="email" required></dd>
+            <dt><span class="required">Telephone Number</span></dt>
+            <dd><input class="input-text" type="tel" name="tel"></dd>
+            <dt><span class="required">Inquiry Type</span></dt>
+            <dd>
+              <select class="select-box" name="genre">
+                <option value="About-Reservations">Reservations</option>
+                <option value="About-Menu">Menu</option>
+                <option value="About-Hours">Business Hours</option>
+                <option value="Others">Others</option>
+              </select>
+            </dd>
+            <dt><span class="required">About You</span></dt>
+            <dd>
+              <label class="radio-button"><input type="radio" name="user-type" value="General-customers" checked>General customers</label>
+              <label class="radio-button"><input type="radio" name="user-type" value="Business-partners">Business partners</label>
+              <label class="radio-button"><input type="radio" name="user-type" value="Others">Others</label>
+            </dd>
+            <dt><span class="required">Inquiry Details</span></dt>
+            <dd><textarea class="message" name="message" required></textarea></dd>
+          </dl>
+          <p class="confirm-text">Please check the entered information and press the [Submit] button if there are no mistakes.</p>
+          <button class="submit-button" type="submit">Submit</button>
+        </form>
+      </div>  
+    </main>
+    <!--main until here-->
+
+    <!--footer from here-->
+    <div id="footer-placeholder"></div>
+    <!--footer until here-->
+
+</body>
+
+</html>
+
