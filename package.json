@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
@@ -11,6 +12,7 @@
   "description": "",
   "devDependencies": {
     "cssnano": "^7.0.6",
-    "terser": "^5.36.0"
+    "terser": "^5.36.0",
+    "vite": "^5.4.10"
   }
 }
