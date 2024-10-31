@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "http-server ./docs", 
-    "build": "rimraf docs && cp -r src/* docs/"
+    "start": "http-server ./docs",
+    "build": "rimraf docs && mkdir docs && cp -r src/* docs/ && cp products.json docs/"
   },
   "keywords": [],
   "author": "",
@@ -12,9 +12,8 @@
   "description": "",
   "devDependencies": {
     "cssnano": "^7.0.6",
-    "terser": "^5.36.0",
     "http-server": "^14.1.1",
-    "rimraf": "^6.0.1"
-
+    "rimraf": "^6.0.1",
+    "terser": "^5.36.0"
   }
 }

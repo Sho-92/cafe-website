@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Hand-rolled Fork",
+      "image": "./images/shop/img-item01.jpg",
+      "description": "This traditional hand fork is an essential tool for any gardening enthusiast.",
+      "price": "$11.75",
+      "link": "./shop-detail.html?product=1"
+    },
+    {
+      "id": "2",
+      "title": "Onion Hoe",
+      "image": "./images/shop/img-item02.jpg",
+      "description": "This tool is versatile, perfect for leveling the ground and loosening soil in various situations.",
+      "price": "$11.75",
+      "link": "./shop-detail.html?product=2"
+    },
+    {
+      "id": "3",
+      "title": "Weeding Pick",
+      "image": "./images/shop/img-item03.jpg",
+      "description": "This weeding pick is ideal for removing fine weeds from brick joints and other tight spaces.",
+      "price": "$9.79",
+      "link": "./shop-detail.html?product=3"
+    },
+    {
+      "id": "4",
+      "title": "Garden Insect Trap",
+      "image": "./images/shop/img-item04.jpg",
+      "description": "This device hangs from tree branches or in the garden to capture pests. Simply place fruit or other bait at the bottom to attract them.",
+      "price": "$15.34",
+      "link": "./shop-detail.html?product=4"
+    },
+    {
+      "id": "5",
+      "title": "Attractant Jute Twine",
+      "image": "./images/shop/img-item05.jpg",
+      "description": "This jute twine is essential for home gardening and is available in a variety of colors.",
+      "price": "$7.18",
+      "link": "./shop-detail.html?product=5"
+    },
+    {
+      "id": "6",
+      "title": "Rubber Gloves",
+      "image": "./images/shop/img-item06.jpg",
+      "description": "These gloves feature a rubber-coated surface for enhanced grip and shock absorption during work.",
+      "price": "$8.16",
+      "link": "./shop-detail.html?product=6"
+    },
+    {
+      "id": "7",
+      "title": "Seed Storage Bag",
+      "image": "./images/shop/img-item07.jpg",
+      "description": "A bag for storing harvested seeds. Conveniently sized like a small pouch, available in a pack of 20.",
+      "price": "$7.83",
+      "link": "./shop-detail.html?product=7"
+    },
+    {
+      "id": "8",
+      "title": "Microfiber Cloth",
+      "image": "./images/shop/img-item08.jpg",
+      "description": "Made of highly absorbent microfiber, it effectively removes dirt without the need for detergents.",
+      "price": "$9.66",
+      "link": "./shop-detail.html?product=8"
+    }
+  ]
+}
