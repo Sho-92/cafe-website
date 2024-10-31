@@ -36,7 +36,7 @@ document.querySelectorAll('.shop-menu-inner a').forEach(link => {
 
 // 商品情報を更新する関数
 async function updateProductDetails(productId) {
-  const response = await fetch('../products.json');
+  const response = await fetch('./products.json');
   if (!response.ok) {
       console.error('商品データの読み込みに失敗しました:', response.status);
       return;
