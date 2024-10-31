@@ -1,53 +1,52 @@
-<p align="center"><img src="docs/images/index/" width="400" alt="My-Portfolio Logo"></p>
+<p align="center"><img src="src/images/index/home-page.png" width="400" alt="Cafe Logo"></p>
 
 
-# Cafe website
+# Cafe "KISSA" website
 
 ## Application Overview
 - **Overview** 
-  - This application was created to showcase my projects and skills. As a digital nomad, I began as a self-taught developer, gradually gaining experience by launching personal projects and engaging in both front-end and back-end development. Through this site, I aim to highlight my technical skills and creativity via my work.  
+  - This is the homepage for a fictional café named "KISSA." It features a clean design with intuitive UI/UX by incorporating product images and a YouTube video for visual engagement.  
 - **Purpose** 
-  - The goal is to organize my projects and demonstrate my capabilities to potential employers and clients. Additionally, I utilize this opportunity to promote personal growth by learning and implementing new technologies and design trends.
+  - Designed for individuals and small business owners looking to develop a cost-effective homepage with essential functionality. It also serves as an opportunity to advance my frontend development skills and deepen my understanding of JavaScript.
 
 **アプリケーションの概要**
 - **概要** 
-  - 自身のプロジェクトやスキルを紹介するために作成しました。デジタルノマドとして自学自習から始まり、個人でプロジェクトを立ち上げ、フロントエンドとバックエンドの開発を行う過程で経験を積んできました。このサイトでは、自身の作品を通じて技術的なスキルとクリエイティビティをアピールします。  
+  - 架空のカフェ「KISSA」をテーマにしたホームページです。商品紹介にイメージ画像とYouTube動画を組み合わせ、シンプルながらもユーザーインターフェース（UI）とユーザー体験（UX）を意識したデザインを実現しました。
 - **目的** 
-  - 自身のプロジェクトを整理し、潜在的な雇用主やクライアントに自身の能力を示すことを目的としています。また、個人的な成長を促進するために、新しい技術やデザインのトレンドを学び実践する機会として利用しています。
+  - 低コストで必要最低限の機能を備えたホームページ開発を希望する個人や小規模事業者向けに設計されたサンプル作品です。また、フロントエンドスキルの向上やJavaScriptの理解深化を目的とした学習プロジェクトとしても取り組んでいます。
 
 ## Technologies Used
-- **Front-end** : HTML5, CSS3, Tailwind CSS, JavaScript
-- **Third-party Services** : Formspree
-- **Deployment** : GitHub Pages, WordPress
+- **Front-end** : HTML5, CSS3, JavaScript
+- **Deployment** : GitHub Pages
 
 ## Key Features
-- **Project Gallery** : A section dedicated to showcasing both front-end and back-end projects.
-- **Multilingual Support** : The application supports both English and Japanese, accommodating a wide range of users.
-- **Interactive Navigation** : Users can easily access each section through a user-friendly navigation bar, featuring a modal window for video playback and a tag switch for project switching.
-- **Email Functionality** : Utilizes the third-party service Formspree to provide a simple email sending feature.
-- **Media Queries** : Implements responsive design to adapt to different devices and screen sizes.
+- **Video Integration** : A YouTube video introduces the café in a dedicated section.
+- **Product Management System** : Products are managed efficiently by assigning unique IDs via package.json.
+- **External E-commerce Links** : Smooth transitions between product pages, implemented with JavaScript, help direct users seamlessly to external e-commerce sites.
+- **Embedded Google Map** : The location map on the access page enhances user engagement.
+- **Responsive Designs** : Media queries ensure adaptability across various devices and screen sizes.
 
 **主要機能** 
-- **プロジェクトギャラリー** : フロントエンドおよびバックエンドのプロジェクトを紹介するセクションがあります。
-- **多言語対応** : 英語と日本語の両方で表示可能なため、幅広いユーザーに対応しています。
-- **インタラクティブなナビゲーション** : ユーザーフレンドリーなナビゲーションバーを通じて、各セクションへの簡単なアクセスが可能です。モーダルウィンドウでの動画再生機能や、タグスイッチによるプロジェクトの切り替えが実現されています。
-- **メール送信機能** : サードパーティサービスのFormspreeを利用し、簡単にメールを送信できる機能を備えています。
-- **メディアクエリ** : 異なるデバイスや画面サイズに対応したレスポンシブデザインを実現しています。
+- **ビデオインサート** : YouTubeの埋め込み機能を用いたカフェ紹介セクションを実装。
+- **商品管理システム** : package.json で商品別にIDを管理し、データ管理を容易にしました。
+- **外部ECサイトへの誘導** : JavaScriptで各商品のページ切り替えをスムーズに行い、外部ECサイトへの移動を効率的にサポート。
+- **Google Maps埋め込み** : アクセスページに店舗のマップを表示し、ユーザーエンゲージメントの向上に寄与しています。
+- **レスポンシブデザイン** : メディアクエリを用い、異なるデバイスや画面サイズに対応。
 
 ## Challenges and Solutions
-- **Challenge** : While integrating various CSS animations with JavaScript, I faced issues with timing, causing the animations not to perform as intended.
-- **Solution** : By adjusting the timing of the animations and properly configuring JavaScript event listeners, I achieved smooth execution of the animations. This enhancement allowed for a more intuitive user interface.
+- **Challenge** : JavaScript integration initially caused load errors due to timing issues during page load.
+- **Solution** : I reviewed the code thoroughly and adjusted JavaScript event listeners, allowing for smooth execution and an intuitive user interface.
 
 **問題点 / 解決策** 
-  - 各CSSアニメーションとJavaScriptの統合を行う際、発火のタイミングが合わず、アニメーションが意図した通りに動作しないという課題がありました。  
-  - アニメーションの発火タイミングを調整し、JavaScriptのイベントリスナーを適切に設定することで、アニメーションのスムーズな実行を実現しました。これにより、ユーザーがより直感的に操作できるインターフェースを提供することができました。
+  - JavaScriptの統合時、発火タイミングのずれにより各ページ読み込みでエラーが発生。  
+  - イベントリスナーを見直し、コード全体を再検証した結果、適切なタイミングでイベントを発火させるよう修正。これにより、ユーザーが直感的に操作できるインターフェースが実現しました。
 
 ## Future Plans
-- Expand the portfolio's functionality and implement improvements based on user feedback.
-- Regularly add new projects and update the content.
-- Continuously update new technologies and design trends to enhance personal skills.
+- **Email Functionality** : Plan to implement SMTP email functionality using PHP’s Laravel Mail class.
+- **E-commerce Development** : Currently, the site directs users to external e-commerce pages, but future plans include adding affiliate links, API integrations, and eventually a full shopping system.
+- **Continuous Skill Development** : I intend to stay updated with new technologies and design trends to refine my skills further.
 
 **今後の展望** 
-- ポートフォリオの機能を拡張し、ユーザーのフィードバックに基づいて改善を行います。  
-- 新しいプロジェクトを追加し、定期的に更新を行います。  
-- 新しい技術やデザインのトレンドを随時更新して、個人スキルの向上を図ります。
+- **メール機能** : PHPのLaravelフレームワークのMailクラスを使用し、SMTP経由でのメール機能を追加予定。
+- **ショッピング機能** : 現在の外部ECサイト誘導から、ASPサービスのリンク設定やAPIデータ連携を順次導入し、ショッピング機能を拡充予定。
+- **スキル向上** : 新技術やデザインのトレンドを随時取り入れ、スキルの継続的な向上を目指します。
