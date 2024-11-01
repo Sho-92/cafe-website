@@ -28,7 +28,7 @@ document.querySelectorAll('.shop-menu-inner a').forEach(link => {
 });
 
 async function updateProductDetails(productId) {
-  const response = await fetch('../products.json');
+  const response = await fetch('./products.json');
   if (!response.ok) {
       console.error('Failed to load product data:', response.status);
       return;
